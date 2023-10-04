@@ -1,3 +1,22 @@
+API_URL="https://api.themoviedb.org/3/movie/popular?api_key=f6fce0842dd3c31d0dcf27233bd0633e"
+API_IMG="https://image.tmdb.org/t/p/w500"
+API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=f6fce0842dd3c31d0dcf27233bd0633e&query"
+API_GENRE="https://api.themoviedb.org/3/genre/movie/list?api_key=f6fce0842dd3c31d0dcf27233bd0633e"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
