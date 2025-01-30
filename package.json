@@ -1,0 +1,24 @@
+{
+  "name": "tjarnas.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass styles.scss dist/styles.css",
+    "watch:sass": "sass --watch styles.scss:dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tjarnas/tjarnas.github.io.git"
+  },
+  "author": "Petter Tjärnås",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tjarnas/tjarnas.github.io/issues"
+  },
+  "homepage": "https://github.com/Tjarnas/tjarnas.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}

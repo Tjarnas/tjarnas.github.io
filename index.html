@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!-- Primary Meta Tags -->
+    <title>Petter Tjärnås | Portfolio & Resume</title>
+    <meta name="title" content="Petter Tjärnås | Portfolio & Resume" />
+    <meta name="description" content="This site showcases my journey as a Front-End Developer, featuring a curated selection of my projects that highlight my skills and creativity in web development. Whether you're a potential employer, a fellow developer, or just curious about my work, you'll find detailed project overviews, technologies used, and my development processes. Additionally, you can download my up-to-date resume directly from the site. Explore my projects to see how I turn innovative designs into functional realities." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Petter Tjärnås | Portfolio & Resume" />
+    <meta property="og:description" content="This site showcases my journey as a Front-End Developer, featuring a curated selection of my projects that highlight my skills and creativity in web development. Whether you're a potential employer, a fellow developer, or just curious about my work, you'll find detailed project overviews, technologies used, and my development processes. Additionally, you can download my up-to-date resume directly from the site. Explore my projects to see how I turn innovative designs into functional realities." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Petter Tjärnås | Portfolio & Resume" />
+    <meta property="twitter:description" content="This site showcases my journey as a Front-End Developer, featuring a curated selection of my projects that highlight my skills and creativity in web development. Whether you're a potential employer, a fellow developer, or just curious about my work, you'll find detailed project overviews, technologies used, and my development processes. Additionally, you can download my up-to-date resume directly from the site. Explore my projects to see how I turn innovative designs into functional realities." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petter Tjärnås Liljedahl</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/dist/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <nav id="navigation">
-            <img id="logo" src="/assets/img/logo.svg" alt="Logo">
+        <nav class="navigation">
+            <img id="logo" src="assets/img/logo.svg" alt="Logo">
             <ul>
                 <li><a href="#about">Petter Tjärnås</a></li>
                 <li><a href="#projects">Portfolio</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="/assets/files/CV - Petter Tjarnas Liljedahl.pdf" download>
-            <button>Download my Resume</button>
+            <a href="assets/files/CV - Petter Tjarnas Liljedahl.pdf" download>
+                <button>Resume</button>
             </a>
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- About Section -->
-        <section id="about">
-            <div id="intro">
+        <section class="about">
+            <section class="intro">
                 <span>I could be your next employee</span>
                 <p id="introduction">Hi, I'm <b id="name">Petter Tjärnås</b> a professional Project Manager & Frontend Developer</p>
-                <p id="quote"> Effective problem solver with very good organizational skills, who enjoys leading and collaborating. Great social commitment with excellent knowledge of English in both speech and writing. Strives to create innovative, user-friendly solutions, continuously learn, and contribute to impactful projects through collaboration and creativity.</p>
-               
-                <div id="socialsNskills">
-                    <!-- Social Links -->
+                <p id="description">Effective problem solver with very good organizational skills, who enjoys leading and collaborating. Great social commitment with excellent knowledge of English in both speech and writing. Strives to create innovative, user-friendly solutions, continuously learn, and contribute to impactful projects through collaboration and creativity.</p>
+                <section class="socialsNskills">
                     <div id="socials">
                         <span>Find me at:</span>
                         <ul id="socialsList">
@@ -42,7 +56,6 @@
                             <a href="https://www.instagram.com/petrus_tl" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
                         </ul>
                     </div>
-                    <!-- Skills -->
                     <div id="skills">
                         <span>My skillset as a dev:</span>
                         <ul id="skillsList">
@@ -53,16 +66,15 @@
                             <i class="fa-brands fa-git"></i>
                         </ul>
                     </div>
-                </div>
-            </div>
-            <div>
-                <img id="portrait" src="/assets/img/Profile.jpg" alt="Petter Tjärnås Liljedahl">
+                </section>
+            </section>
+            <div class="portrait">
+                <img id="portrait" src="assets/img/Profile.jpg" alt="Petter Tjärnås Liljedahl">
             </div>
         </section>
 
-        <!-- Profile Section -->
-        <section id="profile">
-            <div id="profileText">
+        <section class="profile">
+            <section class="profileText">
                 <h2>How I can contribute</h2>
                 <p>I bring a rare combination of technical skill and project management expertise that allows me to deliver exceptional results. Not only can I craft responsive, user-friendly web applications with cutting-edge technologies like React, HTML5, and CSS3, but I also excel at coordinating with teams, meeting deadlines, and aligning technical work with business goals. I thrive on solving complex problems, adapting quickly to new tools and challenges, and ensuring every project exceeds expectations. My social skills have been a strong asset throughout my career. I’ve always valued building relationships, whether it’s with team members, clients, or stakeholders, and I believe in creating a collaborative and supportive work environment.</p>
                 <ul id="highlights">
@@ -73,37 +85,37 @@
                     <li><b>Empathy and adaptability:</b> I connect easily with people, understanding their perspectives and adjusting my communication style to build trust and ensure smooth collaboration.</li>
                 </ul>
                 <p>These skills have not only helped me lead and coordinate projects but also create meaningful professional relationships that drive results.</p>
-            </div>
-            <img id="divider" src="/assets/img/line.svg" alt="divider">
-            <div>
+            </section>
+            <img id="divider" src="assets/img/line.svg" alt="divider">
+            <section class="experience">
                 <h2>My Experience</h2>
                 <p>I’ve spent most of my career in tech-focused roles, spanning from customer service and project management to partner advising and service management. Over the years, I’ve worked at companies like Dstny Sweden AB, Klarna, Soluno BC, and Hi3G Access AB.</p>
                 <ul id="experienceList">
-                    <li>At <b>Dstny Sweden AB </b>I’m currently a Project Manager, where I coordinate technical solutions and ensure high-quality service delivery for cloud-based communication systems.</li>
+                    <li>At <b>Dstny Sweden AB</b> I’m currently a Project Manager, where I coordinate technical solutions and ensure high-quality service delivery for cloud-based communication systems.</li>
                     <li>At <b>Klarna</b> I supported technical teams in delivering integrations and maintaining product quality for e-commerce solutions.</li>
                     <li>My time at <b>Soluno BC</b> allowed me to dive deeper into partner advising, project management, and service management, implementing VoIP solutions and driving technical support for complex issues.</li>
                     <li>At <b>3 (Hi3G Access AB)</b> I worked in customer service and sales support, where I improved customer satisfaction and coordinated technical migration projects.</li>
                 </ul>
                 <p>On top of that, I’ve recently completed a Front-end Developer course at Beetroot Academy. I gained hands-on experience with technologies like HTML, CSS, JavaScript, React, and tools like Git, Sass, and Webpack. It’s fueled my passion for building responsive and user-friendly web applications, which aligns with my goal of transitioning into a dedicated frontend development role.</p>
-            </div>
+            </section>
         </section>
 
-        <section id="projects">
+        <section class="projects" id="projects">
             <h2>Portfolio</h2>
             <span></span>
-            <!-- Slick Slider?  -->
+            <div id="portfolio">
+                <span>COMING SOON..</span>
+            </div>
         </section>
 
         <section id="contact">
             <h3>Contact:</h3>
-            <p>Email: <a href="mailto:pettertjarnas@gmail.com">pettertjarnas@gmail.com</a>.</p>
+            <a href="mailto:pettertjarnas@gmail.com">pettertjarnas@gmail.com</a>
         </section>
-
     </main>
 
     <footer>
         <p>&copy; 2025 Petter Tjärnås Liljedahl</p>
     </footer>
-    
 </body>
 </html>
